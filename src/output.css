@@ -584,6 +584,10 @@ video {
   top: 54vh;
 }
 
+.top-\[55vh\] {
+  top: 55vh;
+}
+
 .m-3 {
   margin: 0.75rem;
 }
@@ -634,11 +638,6 @@ video {
 .my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
-}
-
-.my-1 {
-  margin-top: 0.25rem;
-  margin-bottom: 0.25rem;
 }
 
 .mb-1 {
@@ -697,6 +696,10 @@ video {
   width: 5rem;
 }
 
+.w-44 {
+  width: 11rem;
+}
+
 .w-8 {
   width: 2rem;
 }
@@ -714,80 +717,16 @@ video {
   width: 100%;
 }
 
-.w-12 {
-  width: 3rem;
-}
-
-.w-16 {
-  width: 4rem;
-}
-
-.w-44 {
-  width: 11rem;
-}
-
-.w-11 {
-  width: 2.75rem;
-}
-
-.w-10 {
-  width: 2.5rem;
-}
-
 .min-w-10 {
   min-width: 2.5rem;
-}
-
-.min-w-12 {
-  min-width: 3rem;
-}
-
-.min-w-14 {
-  min-width: 3.5rem;
-}
-
-.min-w-16 {
-  min-width: 4rem;
-}
-
-.min-w-44 {
-  min-width: 11rem;
 }
 
 .min-w-11 {
   min-width: 2.75rem;
 }
 
-.min-w-8 {
-  min-width: 2rem;
-}
-
-.min-w-3 {
-  min-width: 0.75rem;
-}
-
-.min-w-1 {
-  min-width: 0.25rem;
-}
-
-.min-w-\[\] {
-  min-width: ;
-}
-
-.min-w-\[20px\] {
-  min-width: 20px;
-}
-
-.min-w-\[10px\] {
-  min-width: 10px;
-}
-
-.min-w-\[px\] {
-  min-width: px;
-}
-
-.min-w-\[2px\] {
-  min-width: 2px;
+.min-w-14 {
+  min-width: 3.5rem;
 }
 
 .cursor-pointer {
@@ -1140,12 +1079,12 @@ video {
     display: block;
   }
 
-  .md\:inline {
-    display: inline;
-  }
-
   .md\:hidden {
     display: none;
+  }
+
+  .md\:w-16 {
+    width: 4rem;
   }
 
   .md\:w-\[65\%\] {
@@ -1159,14 +1098,6 @@ video {
 
   .md\:w-full {
     width: 100%;
-  }
-
-  .md\:w-16 {
-    width: 4rem;
-  }
-
-  .md\:w-12 {
-    width: 3rem;
   }
 
   .md\:min-w-9 {
