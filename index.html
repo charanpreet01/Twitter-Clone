@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,7 +17,7 @@
 
             <div class="sidebar flex md:items-end flex-col sticky top-0">
                 <div class="logo invert my-3 md:w-full">
-                    <a href="#" title="Home">
+                    <a href="index.html" title="Home">
                         <svg viewBox="0 0 24 24" aria-hidden="true"
                             class="w-8 m-auto r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp r-18jsvk2 r-16y2uox r-8kz0gk  cursor-pointer">
                             <g>
@@ -100,20 +99,20 @@
                     </li>
                 </ul>
 
-                <div class="userprofile w-full mt-4 justify-end hidden md:flex">
+                <div class="userprofile w-full mt-4 md:justify-end flex">
                     <div
                         class="item py-2 flex justify-end gap-4 items-center mx-5 w-fit hover:bg-gray-800 rounded-full px-2">
 
                         <div class="p1">
                             <img src="https://pbs.twimg.com/profile_images/1762151870116876288/GV7DAEDq_normal.jpg"
-                                class="rounded-full w-9 cursor-pointer" alt="">
+                                class="rounded-full min-w-14 md:min-w-9 cursor-pointer self-center relative right-4" alt="">
                         </div>
                         <div class="p2">
-                            <div class="hover:underline cursor-pointer">Charanpreet Singh</div>
-                            <div class="text-gray-500 cursor-pointer">@charanpreet016</div>
+                            <div class="hover:underline cursor-pointer hidden md:block">Charanpreet Singh</div>
+                            <div class="text-gray-500 cursor-pointer hidden md:block">@charanpreet016</div>
                         </div>
                         <div class="p3">
-                            <span class="material-symbols-outlined">
+                            <span class="material-symbols-outlined  hidden md:block">
                                 more_horiz
                             </span>
                         </div>
@@ -137,7 +136,7 @@
             <div class="whatshapp flex gap-2 p-3">
                 <div class="img cursor-pointer">
                     <img src="https://pbs.twimg.com/profile_images/1762151870116876288/GV7DAEDq_normal.jpg"
-                        class="w-10 rounded-full" alt="">
+                        class="min-w-10 rounded-full" alt="">
                 </div>
                 <div class="w-full">
                     <input class="w-full bg-black text-white outline-0 text-xl ml-3" type="text"
@@ -149,20 +148,20 @@
                     </div>
                     <div class="w-full h-[1px] bg-gray-600"></div>
                     <div class="flex justify-between">
-                        <div class="blueicons flex gap-4 mt-2 text-[#1d9bf0]">
+                        <div class="blueicons flex gap-1 md:gap-3 mt-2 text-[#1d9bf0]">
                             <span class="material-symbols-outlined cursor-pointer hover:bg-gray-950 p-2 rounded-full">
                                 image
                             </span>
                             <span class="material-symbols-outlined cursor-pointer hover:bg-gray-950 p-2 rounded-full">
                                 gif_box
                             </span>
-                            <span class="material-symbols-outlined cursor-pointer hover:bg-gray-950 p-2 rounded-full">
+                            <span class="material-symbols-outlined cursor-pointer hover:bg-gray-950 p-2 rounded-full hidden min-[525px]:block">
                                 ballot
                             </span>
                             <span class="material-symbols-outlined cursor-pointer hover:bg-gray-950 p-2 rounded-full">
                                 sentiment_satisfied
                             </span>
-                            <span class="material-symbols-outlined cursor-pointer hover:bg-gray-950 p-2 rounded-full">
+                            <span class="material-symbols-outlined cursor-pointer hover:bg-gray-950 p-2 rounded-full hidden min-[525px]:block">
                                 calendar_month
                             </span>
                             <span class="material-symbols-outlined cursor-pointer hover:bg-gray-950 p-2 rounded-full">
@@ -171,7 +170,7 @@
                         </div>
                         <div class="posticon">
                             <button type="button"
-                                class="bg-[#1d9bf0] text-white px-6 py-2 mt-2 text-md font-bold rounded-full">Post</button>
+                                class="bg-[#1d9bf0] hover:bg-[#1a8cd8] transition-all ease-out text-white px-6 py-2 mt-2 text-md font-bold rounded-full">Post</button>
                         </div>
                     </div>
                 </div>
@@ -399,7 +398,7 @@
 
         </div>
 
-        <div class="third w-full hidden md:block">
+        <div class="third w-full hidden min-[1295px]:block">
             <div class="search m-3 sticky top-3">
                 <input type="text" class="w-1/2 rounded-full bg-[#16181c] px-4 py-2" placeholder="Search">
             </div>
@@ -475,16 +474,6 @@
                     </div>
                 </div>
                 <div class="text-blue-500 cursor-pointer my-3 hover:underline">Show more</div>
-            </div>
-
-            <div class="terms sticky top-[97vh] w-1/2 px-1 py-2 text-xs m-2 space-y-1 text-gray-500">
-                <span class="cursor-pointer hover:underline mr-2">Terms of Service</span>
-                <span class="cursor-pointer hover:underline mr-2">Privacy Policy</span>
-                <span class="cursor-pointer hover:underline mr-2">Cookie Policy</span>
-                <span class="cursor-pointer hover:underline mr-2">Accessibility</span>
-                <span class="cursor-pointer hover:underline mr-2">Ads info</span>
-                <span class="cursor-pointer hover:underline mr-2">More</span>
-                <span class="cursor-pointer hover:underline mr-2">© 2024 X Corp.</span>
             </div>
         </div>
     </div>
